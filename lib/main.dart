@@ -22,7 +22,8 @@ class _MyAppState extends State<MyApp> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
               SvgPicture.asset('assets/images/euro_circular.svg'),
-              SvgPicture.asset('assets/images/Pagamenti sicuri - Nexi Saltedge Paytipper.svg'),
+              SvgPicture.asset('assets/images/paytipper_with_opacity.svg'),
+              SvgPicture.asset('assets/images/paytipper_no_opacity.svg'),
               ElevatedButton(
                 onPressed: (() => setState(() {})),
                 child: const Text('SetState'),
