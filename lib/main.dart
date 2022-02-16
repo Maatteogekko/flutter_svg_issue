@@ -21,8 +21,9 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
-              SvgPicture.asset('assets/images/euro_circular.svg'),
+              SvgPicture.asset('assets/images/euro_circular_with_opacity.svg'),
               SvgPicture.asset('assets/images/paytipper_with_opacity.svg'),
+              SvgPicture.asset('assets/images/euro_circular_no_opacity.svg'),
               SvgPicture.asset('assets/images/paytipper_no_opacity.svg'),
               ElevatedButton(
                 onPressed: (() => setState(() {})),
